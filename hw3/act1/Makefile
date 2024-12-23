@@ -1,0 +1,37 @@
+# Makefile for activity 1
+# 
+
+CFLAGS_1 = -ggdb -std=c99 -Wno-format
+
+all:
+	@echo command choices:
+	@echo make partA
+	@echo or...
+	@echo make partB
+	@echo or...
+	@echo make clean
+
+# Part A debugging
+PartA:	good-life.c
+	@-rm -f Part*
+	@gcc $(CFLAGS_1) good-life.c -o good-life
+	@-touch PartA
+
+partA:	PartA
+
+
+CFLAGS_2 = -ggdb -std=c99
+
+# Part B debugging
+PartB:	good-life.c
+	@-rm -f Part*
+	gcc $(CFLAGS_2) good-life.c -o good-life
+	@-touch PartB
+
+partB:	PartB
+
+clean:
+	-rm -f good-life
+	@-rm -f Part*
+
+realclean:	clean

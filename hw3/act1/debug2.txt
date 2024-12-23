@@ -1,0 +1,127 @@
+gdb -q good-life
+Reading symbols from good-life...
+(gdb) run 123
+Starting program: /home/stu12/s2/hl9082/Courses/CSCI243/Homeworks/hw3/act1/good-life 123
+
+        ..Welcome to the Game of life..
+
+Program received signal SIGSEGV, Segmentation fault.
+__strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:65
+65      ../sysdeps/x86_64/multiarch/strlen-avx2.S: No such file or directory.
+(gdb) bt
+#0  __strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:65
+#1  0x00007ffff7e26d15 in __vfprintf_internal (s=0x7ffff7f9b6a0 <_IO_2_1_stdout_>, format=0x55555555602e "%s", ap=ap@entry=0x7fffffffe4d0,
+    mode_flags=mode_flags@entry=0) at vfprintf-internal.c:1688
+#2  0x00007ffff7e0fd3f in __printf (format=<optimized out>) at printf.c:33
+#3  0x00005555555558b2 in main (argc=2, args=0x7fffffffe878) at good-life.c:143
+(gdb) frame 0
+#0  __strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:65
+65      in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) list
+60      in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) break
+Breakpoint 1 at 0x7ffff7f36915: file ../sysdeps/x86_64/multiarch/strlen-avx2.S, line 65.
+(gdb) info brea
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x00007ffff7f36915 ../sysdeps/x86_64/multiarch/strlen-avx2.S:65
+(gdb) frame 1
+#1  0x00007ffff7e26d15 in __vfprintf_internal (s=0x7ffff7f9b6a0 <_IO_2_1_stdout_>, format=0x55555555602e "%s", ap=ap@entry=0x7fffffffe4d0,
+    mode_flags=mode_flags@entry=0) at vfprintf-internal.c:1688
+1688    vfprintf-internal.c: No such file or directory.
+(gdb) list
+1683    in vfprintf-internal.c
+(gdb) break
+Breakpoint 2 at 0x7ffff7e26d15: file vfprintf-internal.c, line 1688.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x00007ffff7f36915 ../sysdeps/x86_64/multiarch/strlen-avx2.S:65
+2       breakpoint     keep y   0x00007ffff7e26d15 vfprintf-internal.c:1688
+(gdb) frame 2
+#2  0x00007ffff7e0fd3f in __printf (format=<optimized out>) at printf.c:33
+33      printf.c: No such file or directory.
+(gdb) list
+28      in printf.c
+(gdb) break
+Breakpoint 3 at 0x7ffff7e0fd3f: file printf.c, line 36.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x00007ffff7f36915 ../sysdeps/x86_64/multiarch/strlen-avx2.S:65
+2       breakpoint     keep y   0x00007ffff7e26d15 vfprintf-internal.c:1688
+3       breakpoint     keep y   0x00007ffff7e0fd3f printf.c:36
+(gdb) frame 3
+#3  0x00005555555558b2 in main (argc=2, args=0x7fffffffe878) at good-life.c:143
+143                   printf("%s", life[row][col]);
+(gdb) list
+138
+139           for(row = 0; row<20; row++)
+140           {
+141               for(col = 0; col<20; col++)
+142               {
+143                   printf("%s", life[row][col]);
+144               }
+145               puts(" ");
+146           }
+147
+(gdb) break
+Breakpoint 4 at 0x5555555558b2: file good-life.c, line 141.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x00007ffff7f36915 ../sysdeps/x86_64/multiarch/strlen-avx2.S:65
+2       breakpoint     keep y   0x00007ffff7e26d15 vfprintf-internal.c:1688
+3       breakpoint     keep y   0x00007ffff7e0fd3f printf.c:36
+4       breakpoint     keep y   0x00005555555558b2 good-life.c:141
+(gdb) break 65
+Breakpoint 5 at 0x55555555543a: file good-life.c, line 65.
+(gdb) break 1688
+No line 1688 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) break 36
+Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) y
+Breakpoint 6 (1688) pending.
+(gdb) delete breakpoint 6
+(gdb) break 141
+Breakpoint 7 at 0x555555555861: file good-life.c, line 141.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x00007ffff7f36915 ../sysdeps/x86_64/multiarch/strlen-avx2.S:65
+2       breakpoint     keep y   0x00007ffff7e26d15 vfprintf-internal.c:1688
+3       breakpoint     keep y   0x00007ffff7e0fd3f printf.c:36
+4       breakpoint     keep y   0x00005555555558b2 good-life.c:141
+5       breakpoint     keep y   0x000055555555543a in survivalRule at good-life.c:65
+7       breakpoint     keep y   0x0000555555555861 in main at good-life.c:141
+(gdb) break 36
+Breakpoint 8 at 0x555555555225: file good-life.c, line 37.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x00007ffff7f36915 ../sysdeps/x86_64/multiarch/strlen-avx2.S:65
+2       breakpoint     keep y   0x00007ffff7e26d15 vfprintf-internal.c:1688
+3       breakpoint     keep y   0x00007ffff7e0fd3f printf.c:36
+4       breakpoint     keep y   0x00005555555558b2 good-life.c:141
+5       breakpoint     keep y   0x000055555555543a in survivalRule at good-life.c:65
+7       breakpoint     keep y   0x0000555555555861 in main at good-life.c:141
+8       breakpoint     keep y   0x0000555555555225 in survivalRule at good-life.c:37
+(gdb) delete breakpoint 1
+(gdb) info break
+Num     Type           Disp Enb Address            What
+2       breakpoint     keep y   0x00007ffff7e26d15 vfprintf-internal.c:1688
+3       breakpoint     keep y   0x00007ffff7e0fd3f printf.c:36
+4       breakpoint     keep y   0x00005555555558b2 good-life.c:141
+5       breakpoint     keep y   0x000055555555543a in survivalRule at good-life.c:65
+7       breakpoint     keep y   0x0000555555555861 in main at good-life.c:141
+8       breakpoint     keep y   0x0000555555555225 in survivalRule at good-life.c:37
+(gdb) display row
+1: row = 0
+(gdb) display column
+No symbol "column" in current context.
+(gdb) display col
+2: col = 4
+(gdb) whatis life
+type = char [20][20]
+(gdb) display life[row][col]
+3: life[row][col] = 32 ' '
+(gdb) continue
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+(gdb) quit

@@ -1,0 +1,85 @@
+Program received signal SIGINT, Interrupt.
+survivalRule (life=0x7fffffffe600, x=19, y=19) at good-life.c:53
+53                     if(life[row + 1][col - 1] == '*')
+(gdb) bt
+#0  survivalRule (life=0x7fffffffe600, x=19, y=19) at good-life.c:53
+#1  0x000055555555595b in main (argc=2, args=0x7fffffffe898) at good-life.c:152
+(gdb) frame 0
+#0  survivalRule (life=0x7fffffffe600, x=19, y=19) at good-life.c:53
+53                     if(life[row + 1][col - 1] == '*')
+(gdb) list
+48                        ++neighbors;
+49                     if(life[row][col - 1] == '*')
+50                        ++neighbors;
+51                     if(life[row][col + 1] == '*')
+52                        ++neighbors;
+53                     if(life[row + 1][col - 1] == '*')
+54                        ++neighbors;
+55                     if(life[row + 1][col] == '*')
+56                        ++neighbors;
+57                     if(life[row + 1][col + 1] == '*')
+(gdb) break
+Breakpoint 1 at 0x555555555387: file good-life.c, line 53.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555555387 good-life.c:53
+(gdb) frame 1
+#1  0x000055555555595b in main (argc=2, args=0x7fffffffe898) at good-life.c:152
+152               survivalRule(life, x, y);
+(gdb) list
+147               puts(" ");
+148           }
+149
+150           while ( 1 ) {
+151               birthRule(life, x, y);
+152               survivalRule(life, x, y);
+153               for(row = 0; row<20; row++)
+154               {
+155                   for(col = 0; col<20; col++)
+156                   {
+(gdb) break
+Breakpoint 2 at 0x55555555595b: file good-life.c, line 153.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555555387 good-life.c:53
+2       breakpoint     keep y   0x000055555555595b good-life.c:153
+(gdb) break 53
+Breakpoint 3 at 0x55555555535a: file good-life.c, line 53.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555555387 good-life.c:53
+2       breakpoint     keep y   0x000055555555595b good-life.c:153
+3       breakpoint     keep y   0x000055555555535a in survivalRule at good-life.c:53
+(gdb) break 153
+Note: breakpoint 2 also set at pc 0x55555555595b.
+Breakpoint 4 at 0x55555555595b: file good-life.c, line 153.
+(gdb) info break
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555555387 good-life.c:53
+2       breakpoint     keep y   0x000055555555595b good-life.c:153
+3       breakpoint     keep y   0x000055555555535a in survivalRule at good-life.c:53
+4       breakpoint     keep y   0x000055555555595b in main at good-life.c:153
+(gdb) display row
+1: row = 20
+(gdb) display col
+2: col = 20
+(gdb) display life[row][col
+A syntax error in expression, near `'.
+(gdb) display life[row][col]
+3: life[row][col] = 0 '\000'
+(gdb) continue
+Continuing.
+
+Breakpoint 3, survivalRule (life=0x7fffffffe600, x=19, y=19) at good-life.c:53
+53                     if(life[row + 1][col - 1] == '*')
+(gdb) continue
+Continuing.
+
+Breakpoint 1, survivalRule (life=0x7fffffffe600, x=19, y=19) at good-life.c:53
+53                     if(life[row + 1][col - 1] == '*')
+(gdb) quit
+A debugging session is active.
+
+        Inferior 1 [process 1914236] will be killed.
+
+Quit anyway? (y or n) y

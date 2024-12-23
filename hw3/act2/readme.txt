@@ -1,0 +1,1 @@
+Even though I tried my best using the logic in the instruction, which stated that all the left neighbors of those in the first column are in the last column, and vice versa, as I even check for the neighbors in the last column when it is at the 1st column and vice versa, my code still generates all the matrices being different from those in the result.

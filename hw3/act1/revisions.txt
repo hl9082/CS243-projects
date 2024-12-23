@@ -1,0 +1,77 @@
+commit abc5d19f32db0a7dbd47a21f3781d20a80ff5a4a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Sep 17 10:43:40 2024 -0400
+
+    New change
+
+commit 266e3d3214d24051628c3fcd7908fc1d102ad815
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Sep 16 22:14:02 2024 -0400
+
+    Remove the spare parts
+
+commit 1a7fb71a72427cfc679c189c021dc016bb69af01
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Sep 16 22:05:39 2024 -0400
+
+    New changes to the logic
+
+commit ad7ad2498fb53df8da0ea11a2223f780a669bfa4
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Sep 15 23:09:30 2024 -0400
+
+    New change
+
+commit b0538d2e9df65c52addbcbc8a22527c471e7fb4a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Sep 15 16:57:31 2024 -0400
+
+    New change
+
+commit c84c8ed4a74de58b9ca9e9c018eb8bafc72fe395
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sat Sep 14 22:25:23 2024 -0400
+
+    Changed logic
+
+commit 0e4c99e2fe248f3a8b694caad517fa9d3d2663b6
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Sep 12 23:03:44 2024 -0400
+
+    New change
+
+commit 41f6459dd063a704970e3852e46b5d2eacd73f49
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Sep 12 22:53:44 2024 -0400
+
+    New change
+
+commit 6daed26b7774827ea6593deda2876a2359f5a3fc
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Sep 12 22:49:37 2024 -0400
+
+    New change
+
+commit 70ae7eb55711d078a2fd471dad99ea8ef149464e
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Sep 12 22:47:45 2024 -0400
+
+    FIxes made
+
+commit 80eb929c77c2d73ff7535bae063905ca300ba9ab
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Sep 12 17:19:53 2024 -0400
+
+    fix 2: Make sure nothing goes out of the boundaries.
+
+commit e38315b0abb838101f4e2e50f2b86aa5b737cbe3
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Sep 12 17:01:24 2024 -0400
+
+    fix 1: stopped crashes caused by comparison statements that are not conditional statements, comparison between literal values and addresses, and wrong data types format for output.
+
+commit 5c9ab7bf402042ac8e04b8f112f81e53c814103a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Sep 12 15:48:58 2024 -0400
+
+    Initial files
