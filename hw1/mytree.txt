@@ -1,0 +1,70 @@
+Courses/CSCI243/
+├── Homeworks
+│   └── hw1
+│       ├── Doc
+│       │   └── html
+│       │       ├── bc_s.png
+│       │       ├── bdwn.png
+│       │       ├── closed.png
+│       │       ├── doc.png
+│       │       ├── doxygen.css
+│       │       ├── doxygen.png
+│       │       ├── dynsections.js
+│       │       ├── files.html
+│       │       ├── fix__me_8c.html
+│       │       ├── fix__me_8c__incl.map
+│       │       ├── fix__me_8c__incl.md5
+│       │       ├── fix__me_8c__incl.png
+│       │       ├── folderclosed.png
+│       │       ├── folderopen.png
+│       │       ├── globals.html
+│       │       ├── globals_func.html
+│       │       ├── graph_legend.html
+│       │       ├── graph_legend.md5
+│       │       ├── graph_legend.png
+│       │       ├── index.html
+│       │       ├── jquery.js
+│       │       ├── menu.js
+│       │       ├── menudata.js
+│       │       ├── myfile_8txt.html
+│       │       ├── nav_f.png
+│       │       ├── nav_g.png
+│       │       ├── nav_h.png
+│       │       ├── open.png
+│       │       ├── search
+│       │       │   ├── all_0.html
+│       │       │   ├── all_0.js
+│       │       │   ├── all_1.html
+│       │       │   ├── all_1.js
+│       │       │   ├── close.png
+│       │       │   ├── files_0.html
+│       │       │   ├── files_0.js
+│       │       │   ├── files_1.html
+│       │       │   ├── files_1.js
+│       │       │   ├── functions_0.html
+│       │       │   ├── functions_0.js
+│       │       │   ├── mag_sel.png
+│       │       │   ├── nomatches.html
+│       │       │   ├── search.css
+│       │       │   ├── search.js
+│       │       │   ├── search_l.png
+│       │       │   ├── search_m.png
+│       │       │   ├── search_r.png
+│       │       │   └── searchdata.js
+│       │       ├── splitbar.png
+│       │       ├── sync_off.png
+│       │       ├── sync_on.png
+│       │       ├── tab_a.png
+│       │       ├── tab_b.png
+│       │       ├── tab_h.png
+│       │       ├── tab_s.png
+│       │       └── tabs.css
+│       ├── Doxy-hw1
+│       ├── DoxyDefault
+│       ├── fix_me
+│       ├── fix_me.c
+│       ├── myfile.txt
+│       └── myvimrc
+└── Projects
+
+6 directories, 61 files
