@@ -1,0 +1,71 @@
+commit f2274b18872e2d5b829ecffb3c22a9e5a03a8fc0
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 28 19:35:44 2024 -0400
+
+    Memory leaks for str_test2 handled
+
+commit f81b8be297c675686ff6edc93a727c47f7a1db7e
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 28 15:04:20 2024 -0400
+
+    readme.txt created
+
+commit 957067de02bf3fda9f4ac42f085c06c999967a91
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 28 15:01:51 2024 -0400
+
+    revisions.txt updated
+
+commit 4e379057ad983f2619f158cb362f9918e99e954e
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 28 14:59:36 2024 -0400
+
+    Memory leaks 100% handled in String.c, even when running with Valgrind
+
+commit 1ee25892d7feb78b8b39d935ff46b9649980db17
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 27 22:32:46 2024 -0400
+
+    revisions.txt updated
+
+commit 295c72d1a3c02c82f67608184b0fad53fa0b8ad7
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 27 22:31:50 2024 -0400
+
+    New changes to String.c
+
+commit 7e5e403b862c5a72082b4c2de0715e51b3f9ae7f
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sat Oct 26 12:56:38 2024 -0400
+
+    revisions.txt added, struct's documentation added
+
+commit 652471d7dcf44c40256f8badb44ed401da7a8c67
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sat Oct 26 12:55:44 2024 -0400
+
+    assert.h removed, memcpy replaced
+
+commit 8c413b8d6810c236e180bddab4bf72afc8f93e34
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sat Oct 26 12:52:12 2024 -0400
+
+    String.c completed, tests passed, documentations added
+
+commit e761913059d6b8880466e453c9363e7d5ee99f23
+Author: Huy Le <hl9082@rit.edu>
+Date:   Fri Oct 25 22:48:45 2024 -0400
+
+    String.c completed
+
+commit 65377d7b9953225b75755feace4104eb6d052767
+Author: Huy Le <hl9082@rit.edu>
+Date:   Fri Oct 25 13:34:22 2024 -0400
+
+    Whole directory properly implemented
+
+commit 0431c6a8eda9a7a04f39c8ba7b89713e0402d780
+Author: Huy Le <hl9082@rit.edu>
+Date:   Fri Oct 25 13:33:02 2024 -0400
+
+    String.c created
