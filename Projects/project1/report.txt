@@ -1,0 +1,64 @@
+============================= ASSIGNMENT REPORT ============================
+Assignment name is: Wildfire
+My name is:        Huy Le (hl9082)
+
+	[USE PLAIN TEXT]
+	[INSERT ANSWERS AFTER EACH QUESTION AND ADD MORE LINES AS NEEDED.]
+	[MAKE YOUR ANSWERS SHORT AND TO THE POINT. BULLET POINTS ARE GOOD.]
+
+===== In what cases does the program run correctly?  =================
+  The program managed to print out different forest states like the sample required.
+
+===== In what cases does the program fail and how?  ==================
+The program sometimes, if not most of the times, fails to display the output as required by the samples
+and test cases.
+
+===== If applicable, what were the extra credit results?  ============
+For the lightning probability, I put the lightning threshold probability to be 50. The same for dampness.
+This means that if the actual lightning probability goes beyond that, the living tree will be struck randomly.
+For the dampness, if it is above 50, then the tree is basically fire resistant.
+When I put -s19 -c23 -d98 -b17 -L60 as a command, the program goes for 23 cycles, with the latest change number as 1, and cumulative change as 397.
+When I put -s19 -c23 -d98 -b17 -L60 -D40 as a command, basically most of the trees are not damped, so fires still spread, resulting in 23 cycles,
+current change as 1, and cumulative change also 397.
+===== If applicable, describe how to run the extra credit.  ==========
+To run the extra credit, there are a few simple things to do:
+- Regarding the lightning part, first, I denote the minimum lightning probability (also default probability) as 0, and maximum as 100. Then,
+I denote the struck living tree as '!'. In the forest_burn function, if the input lightning probability exceeds the threshold,
+a random living tree will be struck, making that tree catch fire in the next cycle.
+- For the dampness, I also set minimum dampness (also default dampness) to be 0, and maximum to be 100. I also 
+denote the damped tree as 'd'. In the forest_burn function, if the input dampness exceeds the threshold,
+the tree at the given location should not be burnt regardless of the cycle.
+- Last but not least, both the input probability of lightning and dampness input are global variables.
+
+===== How much time did I spend on the project?  =====================
+		I spent more than 2 weeks on the project.
+
+===== What did I learn?  =============================================
+First and foremost, I learnt that to initialize a matrix and use only the initialized size,
+I must make a function with the size before the matrix parameter.
+Next, I also learnt how to use pointer and pass by reference to calculate current change and cumulative change.
+Finally, I learnt that proscratinating was never beneficial - even after weeks committing my time
+and asking around, I barely got the perfect results.
+
+===== What was easy in this assignment?  =============================
+- The easiest part in this assignment was that I could make the modifications in the void function to the matrix permanent.
+- Also, I could print out the matrix.
+
+===== What gave me problems or troubles?  ============================
+
+Initialization, argument parsing, error handling, checking for burning tree and spreading free,
+alongside counting current changes and cumulative changes
+all gave me troubles.
+
+===== What would be the most important improvement for the project?  =
+
+I think the most important improvement for the project would definitely be that 
+trees should catch fire only if the actual probability is greater than the given catch
+fire probability. 
+
+===== What else would I have liked to do for this assignment?  =======
+
+I think that if allowed, I would really like to allow the program to enable us to set 
+the tree on fire when we click it with our mouse.
+
+============================================================================

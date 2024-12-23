@@ -1,0 +1,395 @@
+commit f52e73131c26555d8731d6b94a9b5ba939ccfd66
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 18:11:53 2024 -0500
+
+    Changes to parser.c
+
+commit 6a9890085e520f465989d8878dda7f60cd3c59ef
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 18:08:41 2024 -0500
+
+    revisions.txt updated
+
+commit 625ec057c50a3ed000901506d9d5b30ac02e562a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 18:07:34 2024 -0500
+
+    Changes to parser.c
+
+commit bee5296ddcfed504f4b345c254f6e80d3ebbd2a6
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 16:20:38 2024 -0500
+
+    revisions.txt updated
+
+commit fe4f92332c1e31d3c616332da6f88ef01f787c80
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 16:20:21 2024 -0500
+
+    Changes to parser.c
+
+commit 0fa559316d3a09b720ed1c2571564794909bcb5d
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 16:08:32 2024 -0500
+
+    revisions.txt updated
+
+commit fd4ebc06640a7643cc77cabb2c847488362a3180
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 16:08:15 2024 -0500
+
+    Changes to parser.c
+
+commit e4536f844d321160ab6714e928ec85547de011b9
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 16:01:00 2024 -0500
+
+    revisions.txt updated
+
+commit 761965ac87a093a8cd737e5e7ec7fc52270d73ac
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 16:00:47 2024 -0500
+
+    Changes to parser.c
+
+commit acc32cf748d19f4e18b8ad4ae2f204d6adac1785
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:57:09 2024 -0500
+
+    revisions.txt updated
+
+commit 052216617076979acc21ba0c042218e9e509f834
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:56:53 2024 -0500
+
+    Changes to parser.c
+
+commit 28ff5b69f87e5a29b7d35e036473d2777b641c6a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:53:25 2024 -0500
+
+    revisions.txt updated
+
+commit 75ea1b0a614e2f44a22a8a3a40ca991d6c69d152
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:53:09 2024 -0500
+
+    Changes to parser.c
+
+commit 8dbe473fe0d4983ae6fc0f5ae4e8bfe06013ee3c
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:52:20 2024 -0500
+
+    revisions.txt updated
+
+commit e250cae15a9a960ab23346342ad41b7eeb473528
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:51:52 2024 -0500
+
+    Changes to parser.c
+
+commit 83686e8ce5d743c00d430c81ff04aa55d9014471
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:50:48 2024 -0500
+
+    revisions.txt updated
+
+commit 9f2bc1d37bb7818dcc2b178c02511bbe46c14175
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:50:36 2024 -0500
+
+    Changes made to parser.c
+
+commit 917528d033fcb8dea8e31058388150faed76997f
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:48:36 2024 -0500
+
+    revisions.txt updated
+
+commit 2f415f90f9ccb9ae382393e0b4e211b42f1858b5
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:48:19 2024 -0500
+
+    Changes made to parser.c
+
+commit 1991bd6cf3ca889376ef54411f4b33195ebd9fa2
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:43:40 2024 -0500
+
+    revisions.txt updated
+
+commit 0331f962433a9947c67b6c3732284da9b85e917d
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:43:23 2024 -0500
+
+    Changes made to parser.c
+
+commit 1a36a24451de46d3937c941f5bed5c85ad8b2d7f
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:40:53 2024 -0500
+
+    revisions.txt updated
+
+commit e04aef6573311abb847f9ed0ab571b0d3c26c7c3
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:40:35 2024 -0500
+
+    Changes added to parser.c
+
+commit 811d3b55068ca015e107e2ee3a0bf2f51a34a9ba
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:38:53 2024 -0500
+
+    revisions.txt updated
+
+commit aba52d06085db97d75c27a9af87cd58e7e6adeef
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:38:09 2024 -0500
+
+    New changes made to parser.c
+
+commit 228461166be4df0c327ec96c6bcd9c8021c7e2fa
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:36:01 2024 -0500
+
+    revisions.txt updated
+
+commit 046fb4878f50a1195bb1ef65bc1ad72b26677ed1
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:35:42 2024 -0500
+
+    New changes to parser.c
+
+commit 4775bc4260c65d6ef763d71fb2b631027a552bee
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:32:21 2024 -0500
+
+    revisions.txt updated
+
+commit 0a5ee6e9b032637126bcd902e0f0ba2ec7c4969e
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:32:04 2024 -0500
+
+    Changes to parser.c
+
+commit 52c0c9b9e7a6c57322b9b6707254144eb69b3b84
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:30:57 2024 -0500
+
+    revisions.txt updated
+
+commit 8c3b7f8c0ea21eb11fa2726381c9935035778276
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 15:30:41 2024 -0500
+
+    New change to parser.c
+
+commit 3a6708cf7b88e157cca1d4d8b700f8fdfb2b1550
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 14:12:32 2024 -0500
+
+    revisions.txt updated
+
+commit 68175d3f36c8b3786cb8de624ee371759864d66a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 14:12:13 2024 -0500
+
+    errors handling improved
+
+commit 609c5a52861ed7f9c7e23f6b2d20e3458878b982
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 14:03:47 2024 -0500
+
+    revisions.txt updated
+
+commit 823e1b67b4b3636d57c029c75bbbf91e0e6fd32a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 14:03:29 2024 -0500
+
+    Errors handling changed
+
+commit c673e497b62dcadc748a575d98d8b47fe81b5d47
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 11:27:21 2024 -0500
+
+    revisions.txt updated
+
+commit ae7063a5a9ace6c74ca679f46a7ebbdc0014c87f
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 11:26:55 2024 -0500
+
+    program could run even without filename being specified
+
+commit c233f120b2d1bf3b1377fa5a29a12bd613bd499c
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 11:11:39 2024 -0500
+
+    revisions.txt updated
+
+commit 0974e1530fa55a89d03fd5d6eaf513becf8e4c73
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 11:11:16 2024 -0500
+
+    Changes to interp.c : handled the case when argument is not 2
+
+commit 43a7b37d31160872009f8db41f8ab462c83eaa60
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 10:23:49 2024 -0500
+
+    revisions.txt updated
+
+commit c0e5cd7a3b3fbcf7bbd346f7668db5c60dc2871f
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 21 10:22:35 2024 -0500
+
+    last printf statement fixed in interp.c
+
+commit e24477c25807e308d73289390ba55801c3dbe7de
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 20 22:06:35 2024 -0500
+
+    revisions.txt changed
+
+commit fc058943c8ffc242aa7032b9f412d44b628a7b98
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 20 22:05:17 2024 -0500
+
+    Unnecessary comments deleted
+
+commit 10845fd852e736ffa528da23543f6b70ebab0693
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 20 21:42:09 2024 -0500
+
+    revisions.txt updated
+
+commit bd21573b1b4c24d6acc083b141f883f87fd1ce1b
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 20 21:41:36 2024 -0500
+
+    All errors in valgrind got resolved
+
+commit e94e1faec5db31705831bebd2195079afbefe135
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 20 21:16:21 2024 -0500
+
+    revisions.txt updated
+
+commit 5a538898bc6ba714a77a4583882d557593bf2e9c
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 20 21:14:42 2024 -0500
+
+    Memory leaks fixed. Errors still happen regardless
+
+commit a922bf417f837b59ffbfa99b59d76d9c95742e3c
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 20 15:48:57 2024 -0500
+
+    revisions.txt updated
+
+commit 72722794846619605539d3e190f94adb7c50a5fa
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 20 15:48:37 2024 -0500
+
+    Symtab.c changed. No more leaks, only free-related errors
+
+commit 8c867d1c8fce3565dc595a3364aa28ec0432d18d
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Nov 19 16:28:15 2024 -0500
+
+    revisions.txt created
+
+commit 60642dc46debff4229d05f5dad1c7d01a50c9b59
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Nov 19 16:27:45 2024 -0500
+
+    Stack.c and symtab.c updated. Everything can run correctly.
+
+commit aedd029c78ee02aed0f2c493ec662fa3f9b1f7dc
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Nov 19 10:13:57 2024 -0500
+
+    Changes added to symtab and tree_node
+
+commit 36668eee868aedd97d49f266c0e771ede625b778
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Nov 18 23:14:13 2024 -0500
+
+    Changes made to ensure CTRL-D works
+
+commit d3558b2c5ef1b93f2100639f0582990e58100c9e
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 6 11:02:18 2024 -0500
+
+    Changes to print_infix() function in parser.c
+
+commit 4b61a56dc3893d46a65943501eb3f039197ca3a0
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Nov 4 22:45:02 2024 -0500
+
+    All functions for headers written (initially)
+
+commit c1c9a07b9831ad04524814a860118724fd441a4c
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Oct 31 13:31:37 2024 -0400
+
+    Makefile changed
+
+commit 9a9641e6a165a6e856d856c5739cb984756a3c65
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Oct 30 22:08:45 2024 -0400
+
+    Makefiles updated
+
+commit 023db251a1658a3931cbf2afacfc0701e8213702
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Oct 30 21:45:20 2024 -0400
+
+    interp.c implemented (initially)
+
+commit 9cb7d4a824977cc7f81738ab517f4e8b5f2d45eb
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Oct 29 21:30:29 2024 -0400
+
+    All functions implemented initially
+
+commit 736ceb844643403e96b7b7056045ac09facc836e
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 27 17:16:46 2024 -0400
+
+    Functions in parser.c implemented
+
+commit 58a21b12b44156a8a437fbcde34369a2b5f082dc
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Oct 24 10:44:32 2024 -0400
+
+    New change
+
+commit 03cf1fb94792bdf3e1c0be12eacc7c73cab67bec
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Oct 24 10:31:56 2024 -0400
+
+    parser.c created
+
+commit e4155ffb1e1bc818781fee401f21233cc519c61e
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Oct 24 10:27:18 2024 -0400
+
+    tree_node.h implemented
+
+commit c0deb17dfb8718debdeafc47b0ee89c1640f888c
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Oct 23 21:59:58 2024 -0400
+
+    interp.c created
+
+commit 4836af27a48bb40f344905d31f7f6071fd206a93
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Oct 23 21:28:42 2024 -0400
+
+    symtab.c and stack.c implemented
+
+commit 516ee25b516a13e06fb9f7db88e73c78f1a4605d
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 20 22:04:07 2024 -0400
+
+    Project 2's initial files
