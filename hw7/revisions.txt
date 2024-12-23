@@ -1,0 +1,125 @@
+commit 91639fd851da4f76dba4df08f392f9a5dc8a955a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 14 17:32:26 2024 -0500
+
+    Tried my best to fix the valgrind errors, but in the end, the one and only error still came out of nowhere for no reason
+
+commit 03cf7f7b3d1a0cd57fce8493925bcc081c10e8fc
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 15:54:29 2024 -0500
+
+    revisions.txt is updated
+
+commit aa37a465bec900cb5d9a33ca244ab452626357d9
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 15:54:10 2024 -0500
+
+    print function in mcrypt.c is fixed
+
+commit a99952f6362bf27e28c3877efd06a888adc218eb
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 15:50:56 2024 -0500
+
+    revisions.txt updated
+
+commit 6b2aa182fcc7016730bca0d3d4768ffc5ca5d923
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 15:50:16 2024 -0500
+
+    Outputs matched test results (at least for now). 1024 bytes generated and discarded
+
+commit e9952b5ef12d6adb2dcebe268aea686b06c83c8a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 11:08:31 2024 -0500
+
+    revisions.txt updated
+
+commit 550815375164d5eeea1b185e2429adf6efe0a162
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 11:08:12 2024 -0500
+
+    mcrypt.c updated
+
+commit aaa63abf7868e7dff71fbbb78004f9423893f622
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 11:03:30 2024 -0500
+
+    revisions.txt added
+
+commit 8f00b81ccb2956095ca4a204d8f9f27637e0eafa
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 11:03:09 2024 -0500
+
+    mcrypt.c errors handling added further
+
+commit 006c2ca5d7fb39dbc63011e6dc3d74e2b3d429e7
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 10:52:05 2024 -0500
+
+    revisions.txt updated
+
+commit 3440758f2c4935be4b60e4fbb33e9874e5dc654c
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 10:51:09 2024 -0500
+
+    mcrypt.c changed
+
+commit 08d6b1dbb34c686464fc944a232b2f7348e855e6
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 10:48:51 2024 -0500
+
+    revisions.txt created
+
+commit 1e9c8002bb860b6de212c9c9772b4eb6930a6e0a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 13 10:48:20 2024 -0500
+
+    Everything completed, and runs fine without errors. Only incorrect results.
+
+commit c458ac3267f1e79f510ecf4a617d6034c4843773
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Nov 12 22:31:58 2024 -0500
+
+    Documentations added, and errors.all created
+
+commit 9553c50f050fa170a623788c2b9fd0b8057ae061
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sat Nov 9 21:36:47 2024 -0500
+
+    Changes to mcrypt.c
+
+commit 4493b8cbf2889924eb73ef9e25615454f63dd159
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sat Nov 9 13:22:43 2024 -0500
+
+    mcrypt.c completed
+
+commit 70bf5e14b1d562bbb3460d8ef151a71c10307722
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sat Nov 9 10:24:42 2024 -0500
+
+    KStream.h improved
+
+commit 85b9e4e7bcf98f8aeeacb2ed69cf2fe7ddfd57d0
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sat Nov 9 10:21:01 2024 -0500
+
+    mcrypt.c continued
+
+commit 7c9960a561a4b87b1be3558c62538c8232274d13
+Author: Huy Le <hl9082@rit.edu>
+Date:   Fri Nov 8 23:08:31 2024 -0500
+
+    KStream.c written
+
+commit f010ee9349960a43bdff2ade7b2455cd662a5dca
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 7 23:03:38 2024 -0500
+
+    All added
+
+commit c57e300a092064d8219c72462ffc89b3edb0de04
+Author: Huy Le <hl9082@rit.edu>
+Date:   Thu Nov 7 23:03:23 2024 -0500
+
+    KStream.h created
