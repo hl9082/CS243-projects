@@ -1,0 +1,41 @@
+commit 8ff767ea68205331a3e2f56436be3b3277e2d351
+Author: Huy Le <hl9082@rit.edu>
+Date:   Fri Nov 29 12:55:59 2024 -0500
+
+    All errors handled
+
+commit 52f70cbe44ceb6e4d8315221887dc378be9beb3a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Fri Nov 29 12:45:05 2024 -0500
+
+    No more memory leaks
+
+commit 06bf2067b14698588b7220486f46a36d33a70728
+Author: Huy Le <hl9082@rit.edu>
+Date:   Wed Nov 27 13:05:35 2024 -0500
+
+    Changes made to quicksort.c : number of threads properly counted
+
+commit 4ee1b1c0353226c3ca354cd6f5e2ab6e2aa0bae8
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Nov 26 23:08:37 2024 -0500
+
+    Everything created
+
+commit c0a7c943d6341ff82a9853d753e493c00c2f4bf9
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Nov 26 21:00:23 2024 -0500
+
+    All functions implemented
+
+commit 17f932a22a4cac4232b61b1123514498799483a6
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Nov 26 09:57:59 2024 -0500
+
+    quicksort.c created
+
+commit b9bf6a2dd0c447776ebbaf7b55886f67398bb1fc
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Nov 26 09:52:11 2024 -0500
+
+    Homework 8's frame created
