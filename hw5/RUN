@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+# Run tests for this assignment
+#
+
+if [ $# -gt 0 ]
+then
+	tests="$*"
+else
+	tests="1 2"
+fi
+
+for n in $tests
+do
+	echo ./concordance "<" input.$n ">" out.$n "2>" err.$n
+	./concordance < input.$n > out.$n 2> err.$n
+	cmp stdout.$n out.$n
+	cmp stderr.$n err.$n
+done

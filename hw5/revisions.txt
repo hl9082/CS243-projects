@@ -1,0 +1,155 @@
+commit b42d95f502cf3d8d4bc1e11fb00f7badae73d3ee
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Oct 15 16:18:56 2024 -0400
+
+    Defined macros for factor to multiply with whenever capacity is reached
+
+commit 1fed83888eba45fdf5dde2bb4dec9180012ffaab
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Oct 15 16:16:52 2024 -0400
+
+    New revisions.txt
+
+commit 7cc79275919e27ccfa6a41128afa5b2bd1135e1d
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Oct 15 16:16:29 2024 -0400
+
+    Defined macros for initial frequency
+
+commit 8a99cb35359a6ac4ca388c79613b56baacd2381f
+Author: Huy Le <hl9082@rit.edu>
+Date:   Tue Oct 15 16:15:16 2024 -0400
+
+    assigned reflen to INITIAL CAPACITY
+
+commit ba3c8aa10f54add45ca149c8e8052e9fdedadc43
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 16:27:03 2024 -0400
+
+    New revisions.txt created
+
+commit d6a9288ff719f767c27827cbf21f7b249bc6149c
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 16:26:39 2024 -0400
+
+    CHanged author documentation for concordance.c
+
+commit e2c02c2b3846dbcb96fde113a88cdfdb7ec2b355
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 16:25:59 2024 -0400
+
+    Documentations added for concordance.c
+
+commit 4d72687186c8ed761bb1e0f3b4ba95266feace9a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 16:14:33 2024 -0400
+
+    Added documentations for 2 define statements in bst.c
+
+commit fae21a934481113d3a5444b08baf9c0c71b5692b
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 16:12:17 2024 -0400
+
+    Finished documenting all functions and included libraries, alongside the macro for initial capacity of reference list, which is 6
+
+commit 570fae356b1bf3e9f930fb655556e161d1f013d9
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 16:00:46 2024 -0400
+
+    Added documentation for including bst.h in bst.c
+
+commit ae58f11756b7f61c719b2a2d8cdf34c30681e370
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 15:58:29 2024 -0400
+
+    Remove all unnecessary helper's function in bst.c
+
+commit 83af678c9701a0e9dfa58cdeca15f391419fb3af
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 15:55:51 2024 -0400
+
+    Remove all spare helper's functions
+
+commit 08ee800e32668fe43c6a1de6c48f5fcc2d6a55f5
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 15:53:23 2024 -0400
+
+    Remove the - from the list of delimiters, in case we have words that look like this : ever-fixed
+
+commit 03514520ed079bf0c4369c05da9612585e4ce76b
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 15:50:34 2024 -0400
+
+    Add new delimiter, which is =
+
+commit a8030bd4bdaa22ab4396e741a05408afe9420e3a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 15:41:07 2024 -0400
+
+    Changes to bst_insert
+
+commit ea238654627967611845ee0953e9477bbcd5ec63
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 10:45:56 2024 -0400
+
+    First error gets checked
+
+commit 6c7c557351521937e143f4bd9d6c15c317051036
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 14 09:32:09 2024 -0400
+
+    New changes
+
+commit 5a4e455646b2953fab51c17f2b0e6b11346e8923
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 13 22:36:58 2024 -0400
+
+    New changes
+
+commit ee919d6418681918a21859008659073b6c0cdf46
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 13 22:22:55 2024 -0400
+
+    NEw change
+
+commit ef2110140c0c0eb098d8b71a694ac478cd3cec6e
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 13 22:22:07 2024 -0400
+
+    New change
+
+commit b2f410d89f23b7cba91c32c717a52f07b7267023
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 13 22:18:34 2024 -0400
+
+    Changes to concordance.c
+
+commit 27c423876dfdb02fb172ee839efef457aa3e2d6f
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 13 22:13:23 2024 -0400
+
+    New changes
+
+commit 88bb521b5a1a9051e16c62aafd92a9c2226e3e56
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 13 21:28:02 2024 -0400
+
+    Added the alphabet check
+
+commit 31667cff4cd44b799cce1dce5ec0941669060d3e
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 13 18:51:13 2024 -0400
+
+    Changed inclusion
+
+commit ceadf15a6ee9ac4ba795496172a723cd2ba85c82
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 13 14:56:51 2024 -0400
+
+    concordance.c completed
+
+commit 4887a9b638dc21707b59180ae246443cf5e071cb
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sat Oct 12 23:24:57 2024 -0400
+
+    All functions have been made
