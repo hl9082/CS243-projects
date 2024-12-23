@@ -1,0 +1,4 @@
+load_emp(): bad field count (4), line 20; ignoring line
+load_emp(): bad field count (2), line 44; ignoring line
+load_logfile(): line 21 has 3 fields; ignoring line
+load_logfile(): line 117 has 1 fields; ignoring line

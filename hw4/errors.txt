@@ -1,0 +1,15 @@
+==1858309== Memcheck, a memory error detector
+==1858309== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1858309== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1858309== Command: ./rpt people1.txt
+==1858309== Parent PID: 1802036
+==1858309== 
+==1858309== 
+==1858309== HEAP SUMMARY:
+==1858309==     in use at exit: 0 bytes in 0 blocks
+==1858309==   total heap usage: 1,556 allocs, 1,556 frees, 49,426 bytes allocated
+==1858309== 
+==1858309== All heap blocks were freed -- no leaks are possible
+==1858309== 
+==1858309== For lists of detected and suppressed errors, rerun with: -s
+==1858309== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

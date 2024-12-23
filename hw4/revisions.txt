@@ -1,0 +1,125 @@
+commit cb45c9262dd90bbe9d00656e7a15db9db4cae124
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 22:17:26 2024 -0400
+
+    From line 142 to 144, we fix the while loop to make sure the comparison is correct
+
+commit 32fb1b1d80c12a9169c3bd1e39ef37ab38861eac
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 21:25:56 2024 -0400
+
+    Date comparison changed
+
+commit a4478c1226db30f56249827863bbb8319d223622
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 21:24:52 2024 -0400
+
+    Comparison fixed
+
+commit bcf3ef654661c9b805d98ec5bceaf74ed33e8ef6
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 21:24:13 2024 -0400
+
+    Comparison fixed
+
+commit 867dd34fdb266ea867b50685a920475d7ad1777a
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 21:22:11 2024 -0400
+
+    We compare dates and times in ascending manner
+
+commit 7202820aeb1e84e9bcf61b0667e364d6a78a7a96
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 21:20:06 2024 -0400
+
+    add_logentry in log.c : time comparison fixed
+
+commit 36bdbed7f7367c8cb50afd315b6ac6008328422d
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 21:18:26 2024 -0400
+
+    In function add_logentry in line 140, we compare the dates in descending order (log.c)
+
+commit 9a1d674b5d394451ddb8292856096f3652b0179d
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 21:06:51 2024 -0400
+
+    Line 140 in function add_logentry, we put date comparison before time comparison
+
+commit ff8c55f8284ed8a7b645d6e9e3848748795cecc3
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 20:36:54 2024 -0400
+
+    in function free_emp in emp.c, we free employee's first name, last name, and employee itself eventually. In function delete_all_employees in emp.c, we add the pointer next, which we use in the line 277 in the while loop to assign it to next employee before freeing the emp itself, then assign emp to next. Finally, at line 282, we set employees to NULL.
+
+commit 83a1563db639f0f8e1e98b15353e0ad7bc630dbe
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 20:00:15 2024 -0400
+
+    New change
+
+commit 659dd29cbdc744d071fedc9078d093ad218c08bf
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 19:56:41 2024 -0400
+
+    added a newline to match stdout.txt in function log.c:generate_report:394
+
+commit 4010f24b43616e505fc0b9a2dadbc987ece35321
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 19:36:18 2024 -0400
+
+    Compare the date as well in line 141 of log.c in function add_logentry
+
+commit 6f4791638f103d36e48b437a7668dbbd70763cdc
+Author: Huy Le <hl9082@rit.edu>
+Date:   Mon Oct 7 19:32:23 2024 -0400
+
+    adding the NULL check ensures a NULL pointer wont get passed to strcpy, avoiding invalid reads in function parse.c:duplicate:33
+
+commit bd488bf93435d55fb3e2771c3a86fabddb8f7df5
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 6 22:25:22 2024 -0400
+
+    revisions.txt added
+
+commit 380628bfd55d59b5a7e846d31d8c142c8b8efe20
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 6 22:03:55 2024 -0400
+
+    fixed: not enough space for struct in function new_emp in file emp.c in line 134
+
+commit bd06aa0f9a88cff4d05005235502ece51aa18616
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 6 22:01:57 2024 -0400
+
+    fixed: file pointer not free after use in line 264 of function load_employees in emp.c
+
+commit ae7b3a044964cc93aa7b4ee5470653eafd11546d
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 6 21:58:27 2024 -0400
+
+    fixed: not enough space for struct in function new_emp in file emp.c in line 134
+
+commit bc6dc200e6fa3c730c58b09b4919810cdec47b51
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 6 21:57:46 2024 -0400
+
+    fixed: not enough space for struct in function new_emp in file emp.c in line 134
+
+commit c5719d7f611bd85b3e4dc9cddeb988cf9153e70f
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 6 19:54:00 2024 -0400
+
+    fixed invalid number of characters before \0 and NULL pointer unchecked in function duplicate of parse.c from line 28 to line 34
+
+commit 5355a7c8b8d3c04c22534fa55f3a19bf18003e41
+Author: Huy Le <hl9082@rit.edu>
+Date:   Sun Oct 6 19:16:30 2024 -0400
+
+    fixed: added NULL check for ercurr in function log.c:add_logentry:140
+
+commit e05cd3ab49d662e07a7db54ce932439f50be17d0
+Author: Huy Le <hl9082@rit.edu>
+Date:   Fri Oct 4 22:49:34 2024 -0400
+
+    First change

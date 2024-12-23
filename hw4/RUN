@@ -1,0 +1,29 @@
+#!/bin/bash
+#
+# Generate output files for this program
+#
+
+if [ $# -gt 0 ]
+then
+	tests="$*"
+else
+	tests="1 2 3"
+fi
+
+for n in $tests
+do
+	if [ $n -ne 3 ]
+	then
+		pfile="people1.txt"
+		sofile="stdout.txt"
+		sefile="stderr.txt"
+	else
+		pfile="people2.txt"
+		sofile="stdout3.txt"
+		sefile="stderr3.txt"
+	fi
+	echo ./rpt $pfile "<" log$n.txt ">" out.$n "2>" err.$n
+	./rpt $pfile < log$n.txt > out.$n 2> err.$n
+	cmp $sofile out.$n
+	cmp $sefile out.$n
+done
